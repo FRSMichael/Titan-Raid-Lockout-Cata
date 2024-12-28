@@ -106,10 +106,7 @@ L["ENDT"] = "ENDT" -- End Time
 
 
 if GetLocale() == "deDE" then
-    local _, addonTable = ...
-    L = LibStub("AceLocale-3.0"):GetLocale("TitanClassic", true)
-    
-    -- Addon menu text
+  -- Addon menu text
     L["PanelOptions"] = "Panel-Optionen" -- Settings menu option heading
     L["ShowAllRaids"] = "Zeige alle Raids" -- Settings menu option
     L["ShowLockedHeroics"] = "Zeige zugewiesende heroische Dungeons" -- Settings menu option
