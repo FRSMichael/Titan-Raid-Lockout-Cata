@@ -106,7 +106,25 @@ L["ENDT"] = "ENDT" -- End Time
 
 
 if GetLocale() == "deDE" then
-    -- German localization here
+    local _, addonTable = ...
+    L = LibStub("AceLocale-3.0"):GetLocale("TitanClassic", true)
+    
+    -- Addon menu text
+    L["PanelOptions"] = "Panel-Optionen" -- Settings menu option heading
+    L["ShowAllRaids"] = "Zeige alle Raids" -- Settings menu option
+    L["ShowLockedHeroics"] = "Zeige zugewiesende heroische Dungeons" -- Settings menu option
+    L["TooltipOptions"] = "Tooltip-Optionen" -- Settings menu option heading
+    L["ShowLayoutHint"] = "Zeige Layout-Hinweis" -- Settings menu option
+    L["ShowNonLockedCharacters"] = "Zeige Charaktere ohne ID" -- Settings menu option
+    L["TooltipShowClassicRaids"] = "Zeige Classic-Raids" -- Settings menu option
+    L["TooltipShowTBCRaids"] = "Zeige Burning Crusade-Raids" -- Settings menu option
+    L["TooltipShowWOTLKRaids"] = "Zeige Wrath of the Lich King-Raids" -- Settings menu option
+    L["TooltipShowHeroics"] = "Zeige heroische Dungeons" -- Settings menu option
+    L["TITAN_PANEL_MENU_HIDE"] = "Ausblenden" -- Settings menu option
+    L["Lockout: "] = "ID's: " -- Panel label text
+    L["Instance Name [Bosses]"] = "Instanzname [Bosse]" -- Tooltip legend hint
+    L["Reset Time"] = "Reset-Timer" -- Tooltip legend hint
+    L["All raids and heroics are unlocked"] = "Keiner Raid oder HC-Instanz zugewiesen" -- Tooltip
 end
 
 if GetLocale() == "esES" or GetLocale() == "esMX" then
